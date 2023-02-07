@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+font-family: "Montserrat",
+ sans-serif;'
+
+}
+
+html {
+
+ font-size: 62.5%;
+ /* 1rem = 10px */
+}
+body{
+
+}
+:root{
+ --primary-color:#000839;
+ --primary-shades:#00020b;
+ --para-color:#80849c;
+ --helper-color: #1264fa;
+ --white:#fff;
+}
+a {
+
+ text-decoration: none;
+ display: inline-block;
+
+}
+
+img {
+
+ display: inline-block;
+ width: 100%;
+}
+li {
+
+    list-style: none;
+    
+    }
+h1,h2,h3,h4{
+    
+    color: var(--primary-color);
+    }
+.para{
+    font-size: 1.6rem;
+    Line-height:1.7;
+    font-weight:400;
+    color: var(--para-color);
+}
+.header {
+
+    height: 9.6rem;
+    
+    display: flex;
+    
+    justify-content: space-between; align-items: center;
+    
+    padding: 5.4em;
+}
+    
+.logo
+    {
+    font-size: 2rem;
+    
+    font-weight: bold;
+}
+.navbar-list {
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ gap: 3.2rem;
+ font-size: 1.5rem; 
+}
+
+.navbar-list .navbar-btn {
+ padding: 1.2rem 2.4rem;
+ background-color: var(white);
+ border: 1px solid var(-helper-color);
+ color: var(--helper-color);
+ border-radius: 5rem;
+ transition:all 0.3sec ease-in-out;
+}
+.navbar-list .navbar-link:hover,
+.navbar-list .navbar-link:active 
+{
+ color: var(--helper-color);
+}
+
+.navbar-btn:hover,
+.navbar-btn:active {
+
+ background-color: var(--helper-color);
+ color:var (--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Common clasess/
+
+
+.clear { clear: both;
+
+}
+
+common-h5 {
+
+color: #3b3663; 
+font-size: 14px;
+font-weight: 700; 
+letter-spacing: 1px;
+margin-bottom: 7px;
+
+}
+
+.common-h2 {
+
+color: #3b3663;
+
+font-size: 30px;
+
+Line-height: 38px;
+
+}
+
+.text-center { text-align: center;
+}
+ img-responsive {
+display: block;
+max-width: 100%;
+
+height: auto;
+
+
+}
+.container {
+max-width: 1330px;
+margin: 0 auto;
+padding-left: 15px;
+
+padding-right: 15px;
+}
+a{
+font-family: 'Rubik';
+font-weight: 400;
+}
+.active {
+color: #f47514 important;
+}
+h1,
+h2,
+h3,
+h4,
+h6
+ {
+  font-family:'Nunito';
+  font-weight:800;
+p{
+
+font-family: 'Rubik';
+font-weight: 400;
+}
+/* header*/
+.nav-col {
+float: left;
+width: 75%;
+
+}
+.cnt-info-col { 
+    float: right;
+    text-align:right;
+    width:25;
+ }
+
+text-align: right;
+width: 25%;
+
+.logo {
+float: left;
+width:30%;
+}
+.menu{
+    float:right;
+    width:70%;
+}
